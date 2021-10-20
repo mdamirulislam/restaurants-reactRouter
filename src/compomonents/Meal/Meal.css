@@ -1,0 +1,23 @@
+.mealCard{
+    padding: 10px;
+    border: 1px solid #f95959;
+}
+.mealCard:hover{
+    box-shadow: 10px 10px 10px rgba(211, 211, 211, 0.699);
+    border: 1px solid #66bfbf;
+    
+    transition: 1s;
+
+}
+.mealCard Button{
+    background-color: tomato;
+    border: none;
+}
+.mealCard Button:hover{
+    background-color: #66bfbf;
+    transition: 1s;
+
+}
+.mealCard hr{
+border: 2px solid #ff895d;
+}

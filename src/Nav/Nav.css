@@ -1,0 +1,14 @@
+ .navDiv{background-color: rgb(255, 2, 2);}
+ ul li{
+     display: inline;
+     margin-right: 20px;
+
+     
+ }
+a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 3;
+}
