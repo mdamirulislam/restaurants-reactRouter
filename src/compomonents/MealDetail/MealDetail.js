@@ -28,7 +28,7 @@ const MealDetail = () => {
                 </div>
                 <div className='col-md-4'>
                     <h2> Name: {strMeal}</h2>
-                    <p>{strInstructions}</p>
+                    <p>{strInstructions.slice(0,500)}</p>
               <a href="https://www.youtube.com/watch?v=CmdTUdljh1Q"><FontAwesomeIcon className='DetailInfoIcon' icon={faVideo}/></a> <br /> <br />
                     <button onClick={handleHistory}>Go Back</button>
                 </div>
