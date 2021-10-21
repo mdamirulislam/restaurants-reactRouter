@@ -1,0 +1,28 @@
+.mealDetailCard{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid tomato;
+    padding: 30px;
+}
+
+ Button{
+    background-color: rgba(0, 204, 255, 0.856);
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding:10px ;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+    border: none;
+}
+Button:hover{
+    background-color: rgba(255, 99, 71, 0.705);
+    transition: 0.5s;
+
+}
+.DetailInfoIcon{
+    color: tomato;
+    font-size: 80px;
+}

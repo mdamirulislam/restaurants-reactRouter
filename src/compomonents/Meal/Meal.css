@@ -9,6 +9,9 @@
     transition: 1s;
 
 }
+.detailsText{
+    font-weight: 500;
+}
 .mealCard Button{
     background-color: tomato;
     border: none;
@@ -20,4 +23,9 @@
 }
 .mealCard hr{
 border: 2px solid #ff895d;
+}
+.infoIcon{
+    font-size: 20px;
+    margin-right: 5px;
+  
 }

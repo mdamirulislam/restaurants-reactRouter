@@ -1,7 +1,8 @@
 import React from 'react';
 import Restaurant from '../Restaurant/Restaurant';
 import About from '../About/About' ;
-import Contract from '../Contract/Contrat'
+import Contract from '../Contract/Contrat';
+import MealDetail from '../MealDetail/MealDetail'
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,6 +21,9 @@ const Home = () => {
                     </Route>
                     <Route path='/about'>
                      <About/>
+                    </Route>
+                    <Route path='/meal/:id'>
+                      <MealDetail/>
                     </Route>
                     <Route path='/contract'>
                        <Contract/>
