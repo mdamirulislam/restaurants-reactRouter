@@ -26,7 +26,7 @@ const MealDetail = () => {
                 <div className='col-md-8'>
                 <img className='' src={strMealThumb} alt="" />
                 </div>
-                <div className='col-md-4'>
+                <div className='col-md-4 p-5'>
                     <h2> Name: {strMeal}</h2>
                     <p>{strInstructions.slice(0,500)}</p>
               <a href="https://www.youtube.com/watch?v=CmdTUdljh1Q"><FontAwesomeIcon className='DetailInfoIcon' icon={faVideo}/></a> <br /> <br />
